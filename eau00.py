@@ -10,7 +10,7 @@
 # 000 n’est pas là parce que cette combinaison ne comporte pas exclusivement des chiffres différents les uns des autres.
 
 ### Functions ###
-def generate_combinations_of_3_digits():
+def generate_combinations_of_3_digits_ascending():
     iteration_count = 0
     digit_a = 0
     digit_b = 0
@@ -46,7 +46,7 @@ def generate_combinations_of_3_digits():
 ### Parsing ###
 
 ### Problem Solving ###
-combinations_of_3_digits_result = generate_combinations_of_3_digits()
+combinations_of_3_digits_ascending_result = generate_combinations_of_3_digits_ascending()
 
 ### Result ###
-print(combinations_of_3_digits_result)
+print(combinations_of_3_digits_ascending_result)
