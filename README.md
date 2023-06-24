@@ -6,7 +6,7 @@
 - [x] [01 - Combinaisons de 2 nombres](./eau01.py)
 - [x] [02 - Paramètres à l’envers](./eau02.py)
 - [x] [03 - Suite de Fibonacci](./eau03.py)
-- [ ] [04 - Prochain nombre premier](./eau04.py)
+- [x] [04 - Prochain nombre premier](./eau04.py)
 - [ ] [05 - String dans string](./eau05.py)
 - [ ] [06 - Majuscule sur deux](./eau06.py)
 - [ ] [07 - Majuscule](./eau07.py)
@@ -53,7 +53,7 @@
     2
     #$>
     ```
-- [ ] [04 - Prochain nombre premier](./eau04.py)
+- [x] [04 - Prochain nombre premier](./eau04.py)
     ```shell
     #$> python eau04.py 14
     17
