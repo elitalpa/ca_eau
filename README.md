@@ -3,7 +3,7 @@
 ## Index
 
 - [x] [00 - Combinaisons de 3 chiffres](./eau00.py)
-- [ ] [01 - Combinaisons de 2 nombres](./eau01.py)
+- [x] [01 - Combinaisons de 2 nombres](./eau01.py)
 - [ ] [02 - Paramètres à l’envers](./eau02.py)
 - [ ] [03 - Suite de Fibonacci](./eau03.py)
 - [ ] [04 - Prochain nombre premier](./eau04.py)
@@ -27,7 +27,7 @@
     012, 013, 014, 015, 016, 017, 018, 019, 023, 024, ... , 789
     #$>
     ```
-- [ ] [01 - Combinaisons de 2 nombres](./eau01.py)
+- [x] [01 - Combinaisons de 2 nombres](./eau01.py)
     ```shell
     #$> python eau01.py
     00 01, 00 02, 00 03, 00 04, ... , 00 99, 01 02, ... , 97 99, 98 99
