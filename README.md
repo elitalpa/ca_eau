@@ -2,7 +2,7 @@
 
 ## Index
 
-- [ ] [00 - Combinaisons de 3 chiffres](./eau00.py)
+- [x] [00 - Combinaisons de 3 chiffres](./eau00.py)
 - [ ] [01 - Combinaisons de 2 nombres](./eau01.py)
 - [ ] [02 - Paramètres à l’envers](./eau02.py)
 - [ ] [03 - Suite de Fibonacci](./eau03.py)
@@ -21,7 +21,7 @@
 
 ## Sujets
 
-- [ ] [00 - Combinaisons de 3 chiffres](./eau00.py)
+- [x] [00 - Combinaisons de 3 chiffres](./eau00.py)
     ```shell
     #$> python eau00.py
     012, 013, 014, 015, 016, 017, 018, 019, 023, 024, ... , 789
