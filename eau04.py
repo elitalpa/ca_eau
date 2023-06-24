@@ -41,7 +41,7 @@ def handle_argument_errors():
         exit()
     if not sys.argv[1].isdigit():
         print(-1)
-        print("erreur: only a positive integer number can be accepted")
+        print("error: only a positive integer number can be accepted")
         exit()
 
 ### Error Handling ###
