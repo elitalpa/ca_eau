@@ -7,7 +7,7 @@
 - [x] [02 - Paramètres à l’envers](./eau02.py)
 - [x] [03 - Suite de Fibonacci](./eau03.py)
 - [x] [04 - Prochain nombre premier](./eau04.py)
-- [ ] [05 - String dans string](./eau05.py)
+- [x] [05 - String dans string](./eau05.py)
 - [ ] [06 - Majuscule sur deux](./eau06.py)
 - [ ] [07 - Majuscule](./eau07.py)
 - [ ] [08 - Chiffres only](./eau08.py)
@@ -59,7 +59,7 @@
     17
     #$>
     ```
-- [ ] [05 - String dans string](./eau05.py)
+- [x] [05 - String dans string](./eau05.py)
     ```shell
     #$> python eau05.py bonjour jour
     true
