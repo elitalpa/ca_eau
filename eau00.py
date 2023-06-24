@@ -45,7 +45,7 @@ def generate_combinations_of_3_digits():
 ### Parsing ###
 
 ### Problem Solving ###
-combinations_result = generate_combinations_of_3_digits()
+combinations_of_3_digits_result = generate_combinations_of_3_digits()
 
 ### Result ###
-print(combinations_result)
+print(combinations_of_3_digits_result)
