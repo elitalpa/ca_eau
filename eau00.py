@@ -38,6 +38,7 @@ def generate_combinations_of_3_digits():
         else:
             digit_c += 1
 
+    #return all_combinations
     return valid_combinations[:-2]
 
 ### Error Handling ###
