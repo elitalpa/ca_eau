@@ -8,7 +8,7 @@
 - [x] [03 - Suite de Fibonacci](./eau03.py)
 - [x] [04 - Prochain nombre premier](./eau04.py)
 - [x] [05 - String dans string](./eau05.py)
-- [ ] [06 - Majuscule sur deux](./eau06.py)
+- [x] [06 - Majuscule sur deux](./eau06.py)
 - [ ] [07 - Majuscule](./eau07.py)
 - [ ] [08 - Chiffres only](./eau08.py)
 - [ ] [09 - Entre min et max](./eau09.py)
@@ -70,7 +70,7 @@
     #$> python eau05.py 42
     error
     ```
-- [ ] [06 - Majuscule sur deux](./eau06.py)
+- [x] [06 - Majuscule sur deux](./eau06.py)
     ```shell
     #$> python eau06.py "Hello world !"
     HeLlO wOrLd !
