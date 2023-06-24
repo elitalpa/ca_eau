@@ -44,7 +44,7 @@
     ho
     ha
 
-    #$> python eau02.py “Bonjour 36”
+    #$> python eau02.py "Bonjour 36"
     Bonjour 36
     ```
 - [ ] [03 - Suite de Fibonacci](./eau03.py)
