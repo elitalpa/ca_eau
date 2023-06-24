@@ -4,7 +4,7 @@
 
 - [x] [00 - Combinaisons de 3 chiffres](./eau00.py)
 - [x] [01 - Combinaisons de 2 nombres](./eau01.py)
-- [ ] [02 - Paramètres à l’envers](./eau02.py)
+- [x] [02 - Paramètres à l’envers](./eau02.py)
 - [ ] [03 - Suite de Fibonacci](./eau03.py)
 - [ ] [04 - Prochain nombre premier](./eau04.py)
 - [ ] [05 - String dans string](./eau05.py)
@@ -33,7 +33,7 @@
     00 01, 00 02, 00 03, 00 04, ... , 00 99, 01 02, ... , 97 99, 98 99
     #$>
     ```
-- [ ] [02 - Paramètres à l’envers](./eau02.py)
+- [x] [02 - Paramètres à l’envers](./eau02.py)
     ```shell
     #$> python eau02.py "Suis" "Je" "Drôle"
     Drôle
