@@ -11,6 +11,7 @@ def is_substring_in_string(string, substring):
     #return substring in string
     char_index = 0
     substring_len = len(substring)
+
     for char in string:
         if char == substring[0] and string[char_index:substring_len + char_index] == substring:
             return True
