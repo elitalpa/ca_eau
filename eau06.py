@@ -7,19 +7,24 @@
 import sys
 
 ### Functions ###
+def is_ascii_letter(char):
+    ascii_A = 65
+    ascii_Z = 90
+    ascii_a = 97
+    ascii_z = 122
+
+    return (ord(char) >= ascii_a and ord(char) <= ascii_z) or (ord(char) >= ascii_A and ord(char) <= ascii_Z)
+
 def capitalize_alternate_letters(string):
-    A_letter = 65
-    Z_letter = 90
-    a_letter = 97
-    z_letter = 122
     capitalized_string = ""
     counter = 0
+
     for char in string:
-        if counter % 2 == 0 and (ord(char) >= a_letter and ord(char) <= z_letter) or (ord(char) >= A_letter and ord(char) <= Z_letter):
+        if counter % 2 == 0 and is_ascii_letter(char):
             capitalized_string += char.upper()
             counter += 1
-        elif (ord(char) >= a_letter and ord(char) <= z_letter) or (ord(char) >= A_letter and ord(char) <= Z_letter):
-            capitalized_string += char.lower()
+        elif (is_ascii_letter(char)):
+            capitalized_string += char
             counter += 1
         else:
             capitalized_string += char
