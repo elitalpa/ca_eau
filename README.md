@@ -9,7 +9,7 @@
 - [x] [04 - Prochain nombre premier](./eau04.py)
 - [x] [05 - String dans string](./eau05.py)
 - [x] [06 - Majuscule sur deux](./eau06.py)
-- [ ] [07 - Majuscule](./eau07.py)
+- [x] [07 - Majuscule](./eau07.py)
 - [ ] [08 - Chiffres only](./eau08.py)
 - [ ] [09 - Entre min et max](./eau09.py)
 - [ ] [10 - Index wanted](./eau10.py)
@@ -78,7 +78,7 @@
     #$> python eau06.py 42
     error
     ```
-- [ ] [07 - Majuscule](./eau07.py)
+- [x] [07 - Majuscule](./eau07.py)
     ```shell
     #$> python eau07.py "bonjour mathilde, comment vas-tu ?!"
     Bonjour Mathilde, Comment Vas-tu ?!
