@@ -11,7 +11,7 @@
 - [x] [06 - Majuscule sur deux](./eau06.py)
 - [x] [07 - Majuscule](./eau07.py)
 - [x] [08 - Chiffres only](./eau08.py)
-- [ ] [09 - Entre min et max](./eau09.py)
+- [x] [09 - Entre min et max](./eau09.py)
 - [ ] [10 - Index wanted](./eau10.py)
 - [ ] [11 - Différence minimum absolue](./eau11.py)
 - [ ] [12 - Tri à bulle](./eau12.py)
@@ -97,7 +97,7 @@
     #$> python eau08.py "Bonjour 36"
     false
     ```
-- [ ] [09 - Entre min et max](./eau09.py)
+- [x] [09 - Entre min et max](./eau09.py)
     ```shell
     #$> python eau09.py 20 25
     20 21 22 23 24
