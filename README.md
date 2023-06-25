@@ -10,7 +10,7 @@
 - [x] [05 - String dans string](./eau05.py)
 - [x] [06 - Majuscule sur deux](./eau06.py)
 - [x] [07 - Majuscule](./eau07.py)
-- [ ] [08 - Chiffres only](./eau08.py)
+- [x] [08 - Chiffres only](./eau08.py)
 - [ ] [09 - Entre min et max](./eau09.py)
 - [ ] [10 - Index wanted](./eau10.py)
 - [ ] [11 - Différence minimum absolue](./eau11.py)
@@ -86,7 +86,7 @@
     #$> python eau07.py 42
     error
     ```
-- [ ] [08 - Chiffres only](./eau08.py)
+- [x] [08 - Chiffres only](./eau08.py)
     ```shell
     #$> python eau08.py "4445353"
     true
