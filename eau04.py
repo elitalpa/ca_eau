@@ -10,8 +10,8 @@ import sys
 def is_prime_number(number):
     number_int = int(number)
 
-    for each_number in range(2, number_int - 1):
-        if number_int % each_number == 0 :
+    for divisor in range(2, number_int - 1):
+        if number_int % divisor == 0 :
             return False
 
     return True
