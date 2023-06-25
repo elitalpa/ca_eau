@@ -9,13 +9,13 @@ import sys
 ### Functions ###
 def is_substring_in_string(string, substring):
     #return substring in string
-    chr_index = 0
+    char_index = 0
     substring_len = len(substring)
-    for chr in string:
-        if chr == substring[0] and string[chr_index:substring_len + chr_index] == substring:
+    for char in string:
+        if char == substring[0] and string[char_index:substring_len + char_index] == substring:
             return True
         else:
-            chr_index += 1
+            char_index += 1
                                                               
     return False 
 
