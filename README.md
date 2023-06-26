@@ -12,7 +12,7 @@
 - [x] [07 - Majuscule](./eau07.py)
 - [x] [08 - Chiffres only](./eau08.py)
 - [x] [09 - Entre min et max](./eau09.py)
-- [ ] [10 - Index wanted](./eau10.py)
+- [x] [10 - Index wanted](./eau10.py)
 - [ ] [11 - Différence minimum absolue](./eau11.py)
 - [ ] [12 - Tri à bulle](./eau12.py)
 - [ ] [13 - Tri par sélection](./eau13.py)
@@ -108,7 +108,7 @@
     #$> python eau09.py hello
     error
     ```
-- [ ] [10 - Index wanted](./eau10.py)
+- [x] [10 - Index wanted](./eau10.py)
     ```shell
     #$> python eau10.py Ceci est le monde qui contient Charlie un homme sympa Charlie
     6

@@ -7,12 +7,34 @@
 # Afficher -1 si l’élément n’est pas trouvé.
 # Afficher error et quitter le programme en cas de problèmes d’arguments.
 
+import sys
+
 ### Functions ###
+def find_index(arguments, searched_argument):
+    arg_index = 0
+
+    for arg in arguments:
+        if arg == searched_argument:
+            return arg_index
+
+        arg_index += 1
+
+    return -1
+
+def handle_argument_errors():
+    if len(sys.argv) <= 2:
+        print("error: you need to enter at least 2 arguments")
+        exit()
 
 ### Error Handling ###
+handle_argument_errors()
 
 ### Parsing ###
+arguments_input = sys.argv[1:-1]
+searched_argument_input = sys.argv[-1]
 
 ### Problem Solving ###
+find_index_result = find_index(arguments_input, searched_argument_input)
 
 ### Result ###
+print(find_index_result)
