@@ -18,7 +18,7 @@ def my_bubble_sort(array):
     new_array = array[:]
 
     for sorted_limit_index in range(len(new_array)):
-        for comparison_index in range(0, len(new_array) - sorted_limit_index - 1):
+        for comparison_index in range(len(new_array) - sorted_limit_index - 1):
             if new_array[comparison_index] > new_array[comparison_index + 1]:
                 new_array[comparison_index], new_array[comparison_index + 1] = new_array[comparison_index + 1], new_array[comparison_index]
 
