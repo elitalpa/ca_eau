@@ -13,7 +13,7 @@
 - [x] [08 - Chiffres only](./eau08.py)
 - [x] [09 - Entre min et max](./eau09.py)
 - [x] [10 - Index wanted](./eau10.py)
-- [ ] [11 - Différence minimum absolue](./eau11.py)
+- [x] [11 - Différence minimum absolue](./eau11.py)
 - [ ] [12 - Tri à bulle](./eau12.py)
 - [ ] [13 - Tri par sélection](./eau13.py)
 - [ ] [14 - Par ordre Ascii](./eau14.py)
@@ -119,7 +119,7 @@
     #$> python eau10.py test boom
     -1
     ```
-- [ ] [11 - Différence minimum absolue](./eau11.py)
+- [x] [11 - Différence minimum absolue](./eau11.py)
     ```shell
     #$> python eau11.py 5 1 19 21
     2
