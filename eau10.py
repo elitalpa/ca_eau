@@ -25,6 +25,10 @@ def handle_argument_errors():
     if len(sys.argv) <= 2:
         print("error: you need to enter at least 2 arguments")
         exit()
+    for arg in sys.argv[1:]:
+        if arg.strip('-').isdigit():
+            print("error: your arguments must be strings")
+            exit()
 
 ### Error Handling ###
 handle_argument_errors()
