@@ -15,8 +15,8 @@ import sys
 
 ### Functions ###
 def my_select_sort(array):
-    new_array = transform_array_elements_in_int(array[:])
-    # new_array = [int(element) for element in array] # using list comprehension
+    # new_array = transform_array_elements_in_int(array[:])
+    new_array = [int(element) for element in array] # using list comprehension
 
     for unsorted_index in range(len(new_array)):
         current_min_index = unsorted_index
@@ -63,6 +63,6 @@ array_input = sys.argv[1:] # using a slice
 my_select_sort_result = my_select_sort(array_input)
 
 ### Result ###
-print(transform_array_in_string(my_select_sort_result))
-# print(' '.join(map(str, my_select_sort_result))) # using map function
+# print(transform_array_in_string(my_select_sort_result))
+print(' '.join(map(str, my_select_sort_result))) # using map function
 # print(' '.join([str(element) for element in my_select_sort_result])) # using list comprehension
