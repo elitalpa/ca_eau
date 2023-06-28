@@ -15,7 +15,7 @@ import sys
 
 ### Functions ###
 def my_bubble_sort(array):
-    new_array = transform_array_elements_in_int(array[:])
+    new_array = [int(element) for element in array]
 
     for sorted_limit_index in range(len(new_array)):
         for comparison_index in range(len(new_array) - sorted_limit_index - 1):
@@ -23,22 +23,6 @@ def my_bubble_sort(array):
                 new_array[comparison_index], new_array[comparison_index + 1] = new_array[comparison_index + 1], new_array[comparison_index]
 
     return new_array
-
-def transform_array_elements_in_int(array):
-    array_int = []
-    for string in array:
-        array_int.append(int(string))
-    
-    return array_int
-
-def transform_array_in_string(array):
-    array_in_string = ""
-
-    for item in array:
-        array_in_string += f"{item} "
-
-    return array_in_string
-
 
 def handle_argument_errors():
     if len(sys.argv) <= 2:
@@ -59,4 +43,4 @@ array_input = sys.argv[1:]
 my_bubble_sort_result = my_bubble_sort(array_input)
 
 ### Result ###
-print(transform_array_in_string(my_bubble_sort_result))
+print(' '.join([str(element) for element in my_bubble_sort_result]))
