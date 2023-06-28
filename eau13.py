@@ -29,20 +29,20 @@ def my_select_sort(array):
 
     return new_array
 
-def transform_array_elements_in_int(array):
-    array_int = []
-    for string in array:
-        array_int.append(int(string))
-    
-    return array_int
-
-def transform_array_in_string(array):
-    array_in_string = ""
-
-    for item in array:
-        array_in_string += f"{item} "
-
-    return array_in_string
+# def transform_array_elements_in_int(array):
+#     array_int = []
+#     for string in array:
+#         array_int.append(int(string))
+#     
+#     return array_int
+# 
+# def transform_array_in_string(array):
+#     array_in_string = ""
+# 
+#     for item in array:
+#         array_in_string += f"{item} "
+# 
+#     return array_in_string
 
 def handle_argument_errors():
     if len(sys.argv) <= 2:
@@ -64,5 +64,5 @@ my_select_sort_result = my_select_sort(array_input)
 
 ### Result ###
 # print(transform_array_in_string(my_select_sort_result))
-print(' '.join(map(str, my_select_sort_result))) # using map function
-# print(' '.join([str(element) for element in my_select_sort_result])) # using list comprehension
+# print(' '.join(map(str, my_select_sort_result))) # using map function
+print(' '.join([str(element) for element in my_select_sort_result])) # using list comprehension
