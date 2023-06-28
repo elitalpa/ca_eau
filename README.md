@@ -15,7 +15,7 @@
 - [x] [10 - Index wanted](./eau10.py)
 - [x] [11 - Différence minimum absolue](./eau11.py)
 - [x] [12 - Tri à bulle](./eau12.py)
-- [ ] [13 - Tri par sélection](./eau13.py)
+- [x] [13 - Tri par sélection](./eau13.py)
 - [ ] [14 - Par ordre Ascii](./eau14.py)
 - [ ] [15 - Eau : ok](./eau15.py)
 
@@ -138,7 +138,7 @@
     #$> python eau12.py test test test
     error
     ```
-- [ ] [13 - Tri par sélection](./eau13.py)
+- [x] [13 - Tri par sélection](./eau13.py)
     ```shell
     #$> python eau13.py 6 5 4 3 2 1
     1 2 3 4 5 6
