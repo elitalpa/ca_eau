@@ -8,7 +8,7 @@ import random
 def get_victory_message():
     adjective_of_victory = ["aquatique", "naviguable", "maritime"]
     victory_index = random.randint(0,2)
-    return f"J’ai terminé l’Épreuve de de l’Eau et c’était {adjective_of_victory[victory_index]}."
+    return f"J’ai terminé l’Épreuve de l’Eau et c’était {adjective_of_victory[victory_index]}."
 
 ### Error ###
 
