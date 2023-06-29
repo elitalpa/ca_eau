@@ -17,7 +17,7 @@
 - [x] [12 - Tri à bulle](./eau12.py)
 - [x] [13 - Tri par sélection](./eau13.py)
 - [X] [14 - Par ordre Ascii](./eau14.py)
-- [ ] [15 - Eau : ok](./eau15.py)
+- [x] [15 - Eau : ok](./eau15.py)
 
 ## Sujets
 
@@ -154,7 +154,7 @@
     #$> python eau14.py A Z E R T Y
     A E R T Y Z
     ```
-- [ ] [15 - Eau : ok](./eau15.py)
+- [x] [15 - Eau : ok](./eau15.py)
     ```shell
     #$> python eau15.py
     J’ai terminé l’Épreuve de l’Eau et c’était [].
