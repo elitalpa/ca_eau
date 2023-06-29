@@ -16,7 +16,7 @@
 - [x] [11 - Différence minimum absolue](./eau11.py)
 - [x] [12 - Tri à bulle](./eau12.py)
 - [x] [13 - Tri par sélection](./eau13.py)
-- [ ] [14 - Par ordre Ascii](./eau14.py)
+- [X] [14 - Par ordre Ascii](./eau14.py)
 - [ ] [15 - Eau : ok](./eau15.py)
 
 ## Sujets
@@ -146,7 +146,7 @@
     #$> python eau13.py test test test
     error
     ```
-- [ ] [14 - Par ordre Ascii](./eau14.py)
+- [X] [14 - Par ordre Ascii](./eau14.py)
     ```shell
     #$> python eau14.py Alfred Momo Gilbert
     Alfred Gilbert Momo
