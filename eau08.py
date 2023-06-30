@@ -21,7 +21,7 @@ def is_only_digits(string):
 
 def handle_argument_errors():
     if len(sys.argv) != 2:
-        print("error: you need to enter (only) 1 argument")
+        print("error: You must provide 1 argument.")
         exit()
 
 ### Error Handling ###

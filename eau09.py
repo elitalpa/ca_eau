@@ -27,13 +27,13 @@ def ascending_range(number_a, number_b):
 
 def handle_argument_errors():
     if len(sys.argv) != 3:
-        print("error: you need to enter (only) 2 arguments")
+        print("error: Only 2 arguments are allowed.")
         exit()
     if not sys.argv[1].strip('-').isdigit() or not sys.argv[2].strip('-').isdigit():
-        print("error: the 2 arguments needs to be numbers")
+        print("error: Please provide 2 numbers.")
         exit()
     if sys.argv[1] == sys.argv[2]:
-        print("error: the 2 arguments can't be the same")
+        print("error: Both arguments are identical.")
 
 ### Error Handling ###
 handle_argument_errors()

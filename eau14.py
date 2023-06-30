@@ -22,11 +22,11 @@ def select_sort_ascii_order(array):
 
 def handle_argument_errors():
     if len(sys.argv) <= 2:
-        print("error: you need to enter at least 2 arguments")
+        print("error: At least 2 arguments must be provided.")
         exit()
     for arg in sys.argv[1:]:
         if arg.strip('-').isdigit():
-            print("error: your arguments must be strings")
+            print("error: Your arguments must be strings.")
             exit()
 
 ### Error Handling ###

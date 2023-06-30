@@ -30,11 +30,11 @@ def my_select_sort(array):
 
 def handle_argument_errors():
     if len(sys.argv) <= 2:
-        print("error: you need to enter at least 2 arguments")
+        print("error: At least 2 arguments must be provided.")
         exit()
     for arg in sys.argv[1:]:
         if not arg.strip('-').isdigit():
-            print("error: your arguments must be numbers")
+            print("error: Your arguments must be numbers.")
             exit()
 
 ### Error Handling ###
