@@ -10,17 +10,14 @@
 # 000 n’est pas là parce que cette combinaison ne comporte pas exclusivement des chiffres différents les uns des autres.
 
 ### Functions ###
-def generate_combinations_of_3_digits_ascending():
+def get_combinations_of_3_digits_ascending():
     iteration_count = 0
     digit_a = 0
     digit_b = 0
     digit_c = 1
-    #all_combinations = ""
     valid_combinations = ""
 
     while(iteration_count < 999):
-        #all_combinations += f"{digit_a}{digit_b}{digit_c}\n"
-        
         if digit_a < digit_b < digit_c:
             valid_combinations += f"{digit_a}{digit_b}{digit_c}, "
         
@@ -38,7 +35,6 @@ def generate_combinations_of_3_digits_ascending():
         else:
             digit_c += 1
 
-    #return all_combinations
     return valid_combinations[:-2]
 
 ### Error Handling ###
@@ -46,7 +42,7 @@ def generate_combinations_of_3_digits_ascending():
 ### Parsing ###
 
 ### Problem Solving ###
-combinations_of_3_digits_ascending_result = generate_combinations_of_3_digits_ascending()
+combinations_of_3_digits_ascending_result = get_combinations_of_3_digits_ascending()
 
 ### Result ###
 print(combinations_of_3_digits_ascending_result)
