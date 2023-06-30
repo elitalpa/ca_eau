@@ -8,6 +8,7 @@ import sys
 ### Functions ###
 def reverse_lines_of_arguments(arguments):
     reversed_lines = ""
+
     for argument_index in range(1, len(arguments) + 1):
         reversed_lines += f"{arguments[-argument_index]}\n"
 
@@ -15,7 +16,7 @@ def reverse_lines_of_arguments(arguments):
 
 def handle_argument_errors():
     if len(sys.argv) < 2:
-        print("error: no arguments were entered")
+        print("error: No arguments were provided.")
         exit()
 
 ### Error Handling ###
