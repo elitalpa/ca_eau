@@ -23,11 +23,11 @@ def get_fibonacci_number(fibonacci_index):
 def handle_argument_errors():
     if len(sys.argv) != 2:
         print(-1)
-        print("error: only one argument can be entered")
+        print("error: Only one argument is allowed.")
         exit()
     if not sys.argv[1].isdigit():
         print(-1)
-        print("error: only a positive integer number can be accepted")
+        print("error: Please provide a positive integer number.")
         exit()
 
 ### Error Handling ###
