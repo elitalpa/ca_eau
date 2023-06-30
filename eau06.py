@@ -33,10 +33,10 @@ def capitalize_alternate_letters(string):
 
 def handle_argument_errors():
     if len(sys.argv) != 2:
-        print("error: you need to enter (only) 1 argument")
+        print("error: Only one argument is allowed.")
         exit()
     if sys.argv[1].strip('-').isdigit():
-        print("error: the argument is not a string")
+        print("error: Please provide a string argument.")
         exit()
 
 ### Error Handling ###
