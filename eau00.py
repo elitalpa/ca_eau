@@ -10,7 +10,7 @@
 # 000 n’est pas là parce que cette combinaison ne comporte pas exclusivement des chiffres différents les uns des autres.
 
 ### Functions ###
-def get_combinations_of_3_digits_ascending():
+def generate_combinations_of_3_digits_ascending():
     iteration_count = 0
     digit_a = 0
     digit_b = 0

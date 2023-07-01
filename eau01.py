@@ -3,7 +3,7 @@
 # de deux nombre entre 00 et 99 dans l’ordre croissant.
 
 ### Functions ###
-def get_combinations_of_2_numbers_ascending():
+def generate_combinations_of_2_numbers_ascending():
     iteration_count = 0
     digit_a = 0
     digit_b = 0
