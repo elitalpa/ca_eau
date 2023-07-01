@@ -18,14 +18,7 @@ def get_combinations_of_3_digits_ascending():
     valid_combinations = ""
 
     while(iteration_count < 999):
-        if digit_a < digit_b < digit_c:
-            valid_combinations += f"{digit_a}{digit_b}{digit_c}, "
-        
-        iteration_count += 1
-
-        if digit_a == 9 and digit_b == 9 and digit_c == 9:
-            break
-        elif digit_b == 9 and digit_c == 9:
+        if digit_b == 9 and digit_c == 9:
             digit_b = 0
             digit_c = 0
             digit_a += 1
@@ -34,6 +27,11 @@ def get_combinations_of_3_digits_ascending():
             digit_b += 1
         else:
             digit_c += 1
+
+        if digit_a < digit_b < digit_c:
+            valid_combinations += f"{digit_a}{digit_b}{digit_c}, "
+        
+        iteration_count += 1
 
     return valid_combinations[:-2]
 
