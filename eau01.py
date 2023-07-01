@@ -12,14 +12,7 @@ def get_combinations_of_2_numbers_ascending():
     valid_combinations = ""
 
     while(iteration_count < 9999):
-        if int(f"{digit_a}{digit_b}") < int(f"{digit_c}{digit_d}"):
-            valid_combinations += f"{digit_a}{digit_b} {digit_c}{digit_d}, "
-        
-        iteration_count += 1
-        
-        if digit_a == 9 and digit_b == 9 and digit_c == 9 and digit_d == 9:
-            break
-        elif digit_b == 9 and digit_c == 9 and digit_d == 9:
+        if digit_b == 9 and digit_c == 9 and digit_d == 9:
             digit_b = 0
             digit_c = 0
             digit_d = 0
@@ -33,6 +26,11 @@ def get_combinations_of_2_numbers_ascending():
             digit_c += 1
         else:
             digit_d += 1
+        
+        if int(f"{digit_a}{digit_b}") < int(f"{digit_c}{digit_d}"):
+            valid_combinations += f"{digit_a}{digit_b} {digit_c}{digit_d}, "
+        
+        iteration_count += 1
 
     return valid_combinations[:-2]
 
