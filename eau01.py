@@ -39,7 +39,7 @@ def generate_combinations_of_2_numbers_ascending():
 ### Parsing ###
 
 ### Problem Solving ###
-combinations_of_2_numbers_ascending = get_combinations_of_2_numbers_ascending()
+combinations_of_2_numbers_ascending = generate_combinations_of_2_numbers_ascending()
 
 ### Result ###
 print(combinations_of_2_numbers_ascending)

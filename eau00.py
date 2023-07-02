@@ -40,7 +40,7 @@ def generate_combinations_of_3_digits_ascending():
 ### Parsing ###
 
 ### Problem Solving ###
-combinations_of_3_digits_ascending_result = get_combinations_of_3_digits_ascending()
+combinations_of_3_digits_ascending_result = generate_combinations_of_3_digits_ascending()
 
 ### Result ###
 print(combinations_of_3_digits_ascending_result)
