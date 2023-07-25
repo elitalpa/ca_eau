@@ -11,27 +11,13 @@
 
 ### Functions ###
 def generate_combinations_of_3_digits_ascending():
-    iteration_count = 0
-    digit_a = 0
-    digit_b = 0
-    digit_c = 1
     valid_combinations = ""
 
-    while(iteration_count < 999):
-        if digit_b == 9 and digit_c == 9:
-            digit_b = 0
-            digit_c = 0
-            digit_a += 1
-        elif digit_c == 9:
-            digit_c = 0
-            digit_b += 1
-        else:
-            digit_c += 1
-
-        if digit_a < digit_b < digit_c:
-            valid_combinations += f"{digit_a}{digit_b}{digit_c}, "
-        
-        iteration_count += 1
+    for i in range(10):
+        for j in range(10):
+            for k in range(10):
+                if i < j < k:
+                    valid_combinations += f"{i}{j}{k}, "
 
     return valid_combinations[:-2]
 
