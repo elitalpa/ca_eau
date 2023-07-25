@@ -11,22 +11,22 @@
 
 ### Functions ###
 def generate_combinations_of_3_digits_ascending():
-    valid_combinations = ""
+    valid_combinations = []
 
     for i in range(10):
         for j in range(10):
             for k in range(10):
                 if i < j < k:
-                    valid_combinations += f"{i}{j}{k}, "
+                    valid_combinations.append(f"{i}{j}{k}")
 
-    return valid_combinations[:-2]
+    return valid_combinations
 
 ### Error Handling ###
 
 ### Parsing ###
 
 ### Problem Solving ###
-combinations_of_3_digits_ascending_result = generate_combinations_of_3_digits_ascending()
+combinations_of_3_digits_ascending_result = ', '.join(generate_combinations_of_3_digits_ascending())
 
 ### Result ###
 print(combinations_of_3_digits_ascending_result)
